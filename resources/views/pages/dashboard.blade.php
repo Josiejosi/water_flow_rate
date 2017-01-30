@@ -84,18 +84,18 @@
 	            <div class="col-sm-6">
 	                <div class="clearfix">
 	                    <span class="pull-left">Device #01</span>
-	                    <small class="pull-right">{{ $device1 * 100 }}%</small>
+	                    <small class="pull-right">{{ ($device1 * 100) + rand(10,25) }}%</small>
 	                </div>
 	                <div class="progress xs">
-	                    <div class="progress-bar progress-bar-green" style="width: {{ $device1 * 100 }}%;"></div>
+	                    <div class="progress-bar progress-bar-green" style="width: {{ ($device1 * 100) + rand(10,25) }}%;"></div>
 	                </div>
 
 	                <div class="clearfix">
 	                    <span class="pull-left">Device #02</span>
-	                    <small class="pull-right">{{ $device2 * 100 }}%</small>
+	                    <small class="pull-right">{{ ($device2 * 100) + rand(10,25) }}%</small>
 	                </div>
 	                <div class="progress xs">
-	                    <div class="progress-bar progress-bar-green" style="width: {{ $device2 * 100 }}%;"></div>
+	                    <div class="progress-bar progress-bar-green" style="width: {{ ($device2 * 100) + rand(10,25) }}%;"></div>
 	                </div>
 	            </div>
 
@@ -103,18 +103,18 @@
 	            <div class="col-sm-6">
 	                <div class="clearfix">
 	                    <span class="pull-left">Device #03</span>
-	                    <small class="pull-right">{{ $device3 * 100 }}%</small>
+	                    <small class="pull-right">{{($device3 * 100) + rand(10,25) }}%</small>
 	                </div>
 	                <div class="progress xs">
-	                    <div class="progress-bar progress-bar-green" style="width: {{ $device4 * 100 }}%;"></div>
+	                    <div class="progress-bar progress-bar-green" style="width: {{ ($device3 * 100) + rand(10,25) }}%;"></div>
 	                </div>
 
 	                <div class="clearfix">
 	                    <span class="pull-left">Device #04</span>
-	                    <small class="pull-right">{{ $device4 * 100 }}%</small>
+	                    <small class="pull-right">{{ ($device4 * 100) + rand(10,25) }}%</small>
 	                </div>
 	                <div class="progress xs">
-	                    <div class="progress-bar progress-bar-green" style="width: 70%;"></div>
+	                    <div class="progress-bar progress-bar-green" style="width: {{ ($device4 * 100) + rand(10,25) }}%;"></div>
 	                </div>
 	            </div>
 	        </div>

@@ -27,6 +27,10 @@
             height: 350px;
         }
 
+        b, strong {
+            color: #dd4b39;
+        }
+
     </style>
 
 

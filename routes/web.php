@@ -17,6 +17,9 @@ Route::post('/login', 'AuthController@postLogin');
 Route::get('/register', 'AuthController@register');
 Route::post('/register', 'AuthController@postRegister');
 
+Route::get('/forgot', 'AuthController@forgot');
+Route::post('/forgot', 'AuthController@postForgot');
+
 Route::get('/logout', 'AuthController@logout');
 
 Route::get('/dashboard', 'DashboardController@index');
